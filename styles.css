@@ -1,0 +1,136 @@
+body {
+    background-color: #8dc63f;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+
+.mainblock {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.header p {
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    font-size: 22px;
+    color: #39930d;
+}
+
+.logo b {
+    font-size: 44px;
+    display: block;
+}
+
+.logo i {
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.logo img {
+    margin-left: 35px;
+    transition: all 1s ease;
+}
+
+.logo img:hover {
+    padding-left: 250px;
+}
+
+.contacts {
+    font-size: 22px;
+    text-align: right;
+}
+
+.contacts a {
+    color: #39930d;
+    text-decoration: none;
+}
+
+.contacts i {
+    font-size: 14px;
+    color: #5a5a5a;
+    font-style: italic;
+    text-align: right;
+    display: block;
+}
+
+.pic {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.info {
+    max-width: 600px;
+}
+
+.info h1 {
+    font-size: 24px;
+    color: #39930d;
+}
+
+.info p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+
+.partners {
+    width: 300px;
+}
+
+.partners p {
+    font-size: 18px;
+    color: #fff;
+    background-color: #39930d;
+    padding: 11px 20px;
+}
+
+.partners ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.partners li:hover a {
+    background-color: #5a5a5a;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.partners a {
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
+    display: block;
+    transition: all 1s ease;
+}
+
+.footer {
+    background-color: #39930d;
+    margin: 0 -15px;
+    padding: 11px 15px;
+    color: #fff;
+}
+
